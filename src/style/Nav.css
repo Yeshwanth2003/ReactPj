@@ -1,0 +1,50 @@
+nav{
+     display: flex;
+     position: fixed;
+     margin: 0%;
+     top: 4%;
+     z-index: 1;
+     left:20px;
+     min-width: 100%;
+     min-height: 20%;
+}
+.navDiv{
+     color: white;
+     margin: 0 0 0 60px;
+     font-weight: bolder;
+     font-size: 30px;
+}
+
+.LogoText{
+     font-size: 70px;
+     font-weight: bolder;
+     text-shadow: chartreuse 1px 0 50px;
+}
+
+.LogoDiv{
+     margin-right: 0%;
+     margin-left: 1%;
+     color: aliceblue;
+}
+.restNav{
+     position: fixed;
+     display: flex;
+     flex-direction: row; 
+     align-items: baseline;
+     top: 8%;
+     left: 15%;
+}
+
+.navDivBB{
+     border-bottom: 4px solid chartreuse;
+     color:chartreuse;
+}
+.logoImg{
+     height: 35%;
+     width: 18%;
+     margin-right: 5px;
+}
+
+.navP:hover{
+     cursor: pointer;
+}
